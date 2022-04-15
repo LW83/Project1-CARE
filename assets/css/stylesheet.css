@@ -40,6 +40,11 @@ nav a:hover {
     color: blue;
 }
 
-.active {
-    text-decoration: underline;
+/* Hero Image */
+
+#hero-image {
+    background: url(/assets/images/hero-image.jpg) center center;
+    width: 1561px;
+    height: 1042px;
+    background-repeat: no-repeat;
 }
