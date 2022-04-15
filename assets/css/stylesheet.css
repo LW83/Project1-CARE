@@ -10,7 +10,7 @@
 
 body {
     font-family: "comic neue", sans-serif;
-    color: red;
+    color: navy;
 }
 
 /* Styling for logo */
@@ -45,6 +45,10 @@ nav a:hover {
     color: whitesmoke;
 }
 
+nav a:visited {
+    color: whitesmoke
+}
+
 /* Hero Image */
 
 #hero-image {
@@ -55,3 +59,20 @@ nav a:hover {
 }
 
 /* Style footer */
+
+footer p {
+    text-align: center;
+}
+
+#social {
+    text-align: center;
+}
+
+#social li {
+    display: inline;
+    font-size: 30px;
+}
+
+#social a:visited {
+    color: navy;
+}
