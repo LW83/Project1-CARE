@@ -24,8 +24,22 @@
 
 nav li {
     font-family: "Red Hat Display", sans-serif;
+    color: rgb(12, 12, 110);
     float: right;
     margin-right: 20px;
     font-size: 120%;
     list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.active {
+    text-decoration: underline;
 }
