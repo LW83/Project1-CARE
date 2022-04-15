@@ -9,4 +9,9 @@
 #logo, #sub-logo {
     color: red;
     font-family: "Red Hat Display", sans-serif;
+    margin-left: 20px;
+}
+
+#logo {
+    margin-top: 20px;
 }
