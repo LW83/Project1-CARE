@@ -7,7 +7,7 @@
 }
 
 #logo, #sub-logo {
-    color: red;
+    color: rgb(12, 12, 110);
     font-family: "Red Hat Display", sans-serif;
     margin-left: 20px;
 }
@@ -16,6 +16,8 @@
     margin-top: 20px;
 }
 
-li {
-    font-family: "Red Hat Display", sans-serif
+nav li {
+    font-family: "Red Hat Display", sans-serif;
+    text-align: right;
+    margin-right: 20px;
 }
