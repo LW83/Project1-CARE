@@ -8,6 +8,11 @@
    border: 0;
 }
 
+body {
+    font-family: "comic neue", sans-serif;
+    color: red;
+}
+
 /* Styling for logo */
 
 #logo, #sub-logo {
@@ -40,10 +45,6 @@ nav a:hover {
     color: whitesmoke;
 }
 
-#header-text {
-    line-height: 75px;
-}
-
 /* Hero Image */
 
 #hero-image {
@@ -52,3 +53,5 @@ nav a:hover {
     height: 700px;
     background-repeat: no-repeat;
 }
+
+/* Style footer */
