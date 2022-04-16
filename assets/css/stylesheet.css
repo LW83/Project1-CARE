@@ -50,7 +50,7 @@ nav a:hover {
 }
 
 nav a:visited {
-    color: whitesmoke
+    color: #6e84a9;
 }
 
 /* Hero Image */
@@ -62,7 +62,10 @@ nav a:visited {
     background-repeat: no-repeat;
 }
 
-/* Style footer */
+/* About Us Section */
+
+
+/* Footer Section */
 
 footer {
     text-align: center;
@@ -74,7 +77,7 @@ footer {
 }
 
 #social a:visited {
-    color: #283955;
+    color: #6e84a9;
 }
 
 #newsletter {
@@ -102,4 +105,5 @@ footer {
 
 #email {
     border-radius: 4px;
+    padding: 2px 8px;
 }
