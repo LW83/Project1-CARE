@@ -25,6 +25,10 @@ body {
     margin-top: 20px;
 }
 
+header a {
+    text-decoration: none;
+}
+
 /* Styling for navigation section */
 
 nav li {
