@@ -86,7 +86,20 @@ footer {
     line-height: 40px;
 }
 
-#newsletter-form {
-    border-radius: 5px;
+.submit-button {
+    border-radius: 4px;
+    border: solid #283955;
     display: inline-block;
+    background-color: whitesmoke;
+    font-family: "comic neue", sans-serif;
+    padding: 2px 8px;
+}
+
+.submit-button:hover {
+    background-color: #6e84a9;
+    color: whitesmoke;
+}
+
+#email {
+    border-radius: 4px;
 }
