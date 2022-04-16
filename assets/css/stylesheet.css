@@ -10,7 +10,7 @@
 
 body {
     font-family: "comic neue", sans-serif;
-    color: navy;
+    color: #283955;
 }
 
 /* Styling for logo */
@@ -60,19 +60,29 @@ nav a:visited {
 
 /* Style footer */
 
-footer p {
-    text-align: center;
-}
-
-#social {
+footer {
     text-align: center;
 }
 
 #social li {
     display: inline;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #social a:visited {
-    color: navy;
+    color: #283955;
+}
+
+#newsletter {
+    background-color: #283955;
+    color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    margin-left: 150px;
+    line-height: 40px;
+}
+
+#newsletter-form {
+    border-radius: 5px;
+    display: inline-block;
 }
