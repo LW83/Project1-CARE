@@ -64,6 +64,26 @@ nav a:visited {
 
 /* About Us Section */
 
+#about {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.who {
+    width: 33%;
+    float: left;
+}
+
+.what {
+    width: 33%;
+    display: inline-block;
+}
+
+.why {
+    width: 33%;
+    float: right;
+    display: inline-block;
+}
 
 /* Footer Section */
 
