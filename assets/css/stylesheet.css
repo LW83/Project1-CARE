@@ -67,22 +67,30 @@ nav a:visited {
 #about {
     margin-bottom: 20px;
     margin-top: 20px;
+    text-align: center;
 }
 
-.who {
-    width: 33%;
+#who {
+    width: 30%;
     float: left;
 }
 
-.what {
-    width: 33%;
+#what {
+    width: 30%;
     display: inline-block;
 }
 
-.why {
-    width: 33%;
+#why {
+    width: 30%;
     float: right;
     display: inline-block;
+}
+
+.about-box {
+    border: solid 2px #283955;
+    margin: 10px;
+    border-radius: 7px;
+    height: 200px;
 }
 
 /* Footer Section */
