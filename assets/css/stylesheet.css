@@ -28,13 +28,14 @@ body {
 
 header a {
     text-decoration: none;
+    color: whitesmoke;
 }
 
 /* Styling for navigation section */
 
 nav li {
-    font-family: "Red Hat Display", sans-serif;
     color: whitesmoke;
+    font-family: "Red Hat Display", sans-serif;
     float: right;
     margin-right: 20px;
     font-size: 120%;
@@ -55,7 +56,7 @@ nav a:visited {
 }
 
 #navigation {
-    display: inline-block;
+    display: block;
     float: right;
 }
 
@@ -89,7 +90,7 @@ nav a:visited {
 #why {
     width: 30%;
     float: right;
-    display: inline-block;
+    display: block;
 }
 
 .about-box {
@@ -117,6 +118,7 @@ footer {
 #social li {
     display: inline;
     font-size: 40px;
+    padding: 5px;
 }
 
 #social a:visited {
@@ -147,4 +149,32 @@ footer {
 #email {
     border-radius: 4px;
     padding: 2px 8px;
+}
+
+#social-media h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Events Page */
+img {
+    width: 60%;
+    height: 60%;
+    padding: 10px;
+}
+
+#Marlay {
+    width: 25%;
+    float: left;
+}
+
+#Bushy {
+    width: 25%;
+    display: inline-block;
+}
+
+#Cabinteely {
+    width: 25%;
+    float: right;
+    display: block;
 }
