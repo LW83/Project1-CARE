@@ -19,6 +19,7 @@ body {
     color: whitesmoke;
     font-family: "Red Hat Display", sans-serif;
     margin-left: 20px;
+    display: inline-block;
 }
 
 #image-div {
@@ -51,6 +52,11 @@ nav a:hover {
 
 nav a:visited {
     color: #6e84a9;
+}
+
+#navigation {
+    display: inline-block;
+    float: right;
 }
 
 /* Hero Image */
