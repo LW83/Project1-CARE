@@ -88,9 +88,18 @@ nav a:visited {
 
 .about-box {
     border: solid 2px #283955;
-    margin: 10px;
+    margin: 20px;
     border-radius: 7px;
     height: 200px;
+}
+
+#about h2 {
+    padding: 7px;
+}
+
+#about p {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* Footer Section */
