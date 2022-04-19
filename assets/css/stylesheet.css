@@ -82,17 +82,7 @@ nav a:visited {
     font-size: 180%;
 }
 
-#who {
-    width: 30%;
-    float: left;
-}
-
-#what {
-    width: 30%;
-    float: left;
-}
-
-#why {
+#who, #what, #why {
     width: 30%;
     float: left;
 }
@@ -182,4 +172,47 @@ img {
 
 #event-section {
     text-align: center;
+}
+
+/* Tips Page */
+
+#tips {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#shopping {
+    background-color: palegreen;
+}
+
+#shopping, #home, #transport {
+    width: 30%;
+    float: left;
+}
+
+.tip-box {
+    border: solid 2px #283955;
+    margin: 20px;
+    border-radius: 7px;
+    height: 200px;
+}
+
+#tips ul {
+    width: 90%;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: left;
+}
+
+#tips h2 {
+    padding: 7px;
+}
+
+#tip-submission {
+    background-color: #6e84a9;
+    color: whitesmoke;
+    width: 50%%;
+    line-height: 40px;
+    clear: both;
 }
