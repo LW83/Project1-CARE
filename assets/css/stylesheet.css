@@ -86,6 +86,10 @@ nav a:hover {
     font-size: 200%;
 }
 
+#all-about {
+    width: 100%;
+}
+
 #who, #what, #why {
     width: 28%;
     float: left;
@@ -93,13 +97,13 @@ nav a:hover {
 
 .about-box {
     border: solid 2px #283955;
-    margin: 2%;
+    margin: 2.5%;
     border-radius: 7px;
-    height: 200px;
+    height: 300px;
 }
 
 #about h2 {
-    padding: 7px;
+    padding-top: 10px;
 }
 
 #about p {
@@ -201,15 +205,15 @@ img {
 }
 
 #shopping, #home, #transport {
-    width: 30%;
+    width: 28%;
     float: left;
 }
 
 .tip-box {
     border: solid 2px #283955;
-    margin: 20px;
+    margin: 2.5%;
     border-radius: 7px;
-    height: 200px;
+    height: 400px;
 }
 
 #tips ul {
@@ -222,6 +226,10 @@ img {
 #tips h2 {
     padding: 7px;
     font-weight: bold;
+}
+
+#tips p {
+    padding: 2.5%;
 }
 
 #tip-submission {
@@ -238,7 +246,7 @@ img {
     padding: 35px;
     margin: 4% 0 4% 0;
     max-width: 400px;
-    border-radius: 4px;
+    border-radius: 7px;
 }
 
 #tip-form h2 {
