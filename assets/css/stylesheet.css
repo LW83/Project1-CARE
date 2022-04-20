@@ -170,8 +170,17 @@ img {
     margin: 2%;
 }
 
-#event-section {
+.event-section {
     text-align: center;
+}
+
+.event-section > p {
+    margin: 5px 10px;
+}
+
+.event-subheading {
+    background-color: #6e84a9;
+    color: whitesmoke;
 }
 
 /* Tips Page */
@@ -212,7 +221,7 @@ img {
 #tip-submission {
     background-color: #6e84a9;
     color: whitesmoke;
-    width: 50%%;
+    width: 50%;
     line-height: 40px;
     clear: both;
 }
