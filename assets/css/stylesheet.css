@@ -32,8 +32,7 @@ header a {
 }
 
 #image-div .fa-solid {
-    color: #a3a647
-    ;
+    color: #a3a647;
 }
 
 /* Styling for navigation section */
@@ -51,13 +50,13 @@ nav a {
     text-decoration: none;
 }
 
+nav a:visited {
+    color: #6e84a9;
+}
+
 nav a:hover {
     text-decoration: underline;
     color: whitesmoke;
-}
-
-nav a:visited {
-    color: #6e84a9;
 }
 
 #navigation {
@@ -84,17 +83,17 @@ nav a:visited {
 }
 
 #about-header {
-    font-size: 180%;
+    font-size: 200%;
 }
 
 #who, #what, #why {
-    width: 30%;
+    width: 28%;
     float: left;
 }
 
 .about-box {
     border: solid 2px #283955;
-    margin: 20px;
+    margin: 2%;
     border-radius: 7px;
     height: 200px;
 }
@@ -144,6 +143,7 @@ footer {
 .submit-button:hover {
     background-color: #6e84a9;
     color: whitesmoke;
+    border: solid 2px whitesmoke;
 }
 
 #email {
@@ -221,26 +221,59 @@ img {
 
 #tips h2 {
     padding: 7px;
+    font-weight: bold;
 }
 
 #tip-submission {
-    background-color: #6e84a9;
-    color: whitesmoke;
     width: 100%;
-    height: 400px;
+    height: 500px;
     clear: both;
 }
 
 #tip-form {
     color: whitesmoke;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(99, 132, 169, 0.8);
     position: absolute;
-    left: 10%;
-    padding: 30px;
+    left: 34%;
+    padding: 35px;
+    margin: 4% 0 4% 0;
     max-width: 400px;
+    border-radius: 4px;
+}
+
+#tip-form h2 {
+    margin-bottom: 12px;
+}
+
+.text-input {
+    width: 100%;
+    height: 25px;
+    margin: 10 0 20 0;
+}
+
+.text-input2 {
+    width: 100%;
+    height: 60px;
+    margin: 10 0 20 0;
 }
 
 #email, #firstname, #lastname, #suggestion {
     border-radius: 4px;
     padding: 2px 8px;
+    margin: 4px 0 8px 0;
+}
+
+.submit-button2 {
+    border-radius: 4px;
+    border: solid #283955;
+    background-color: whitesmoke;
+    font-family: "comic neue", sans-serif;
+    height: 25px;
+    padding: 2px 8px;
+}
+
+.submit-button2:hover {
+    background-color: #283955;
+    color: whitesmoke;
+    border: solid 2px whitesmoke;
 }
