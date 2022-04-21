@@ -200,11 +200,7 @@ img {
     text-align: center;
 }
 
-#shopping {
-    background-color: palegreen;
-}
-
-#shopping, #home, #transport {
+#shopping, #home, #out, #work, #garden, #clothes {
     width: 28%;
     float: left;
 }
@@ -213,7 +209,7 @@ img {
     border: solid 2px #283955;
     margin: 2.5%;
     border-radius: 7px;
-    height: 400px;
+    height: 700px;
 }
 
 #tips ul {
@@ -221,6 +217,10 @@ img {
     margin-left: 7%;
     margin-right: 7%;
     text-align: left;
+}
+
+#tips ul > li {
+    padding: 5px 0px;
 }
 
 #tips h2 {
