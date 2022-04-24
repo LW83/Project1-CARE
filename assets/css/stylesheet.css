@@ -85,7 +85,7 @@ nav a:hover {
 
 .about-box {
     border: solid 2px #283955;
-    margin: 2.5%;
+    margin: 15px 2.5%;
     border-radius: 7px;
     min-height: 180px;
     width: 28%;
@@ -278,6 +278,13 @@ img {
     border: solid 2px whitesmoke;
 }
 
+/* For screen sizes from 1600px wide and down */
+@media screen and (max-width: 1600px) {
+
+    .about-box {
+        min-height: 230px;
+    }
+
 /* For screen sizes from 1280px wide and down */
 @media screen and (max-width: 1280px) {
 
@@ -293,7 +300,6 @@ img {
     #logo {
         max-width: 60%;
     }
-
 }
 
 /* For screen sizes from 320px wide and down */
