@@ -76,39 +76,30 @@ nav a:hover {
 
 /* About Us Section */
 
-#about {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    text-align: center;
-}
-
 #about-header {
     font-size: 200%;
-}
-
-#all-about {
-    width: 100%;
-}
-
-#who, #what, #why {
-    width: 28%;
-    float: left;
+    text-align: center;
+    line-height: 60px;
 }
 
 .about-box {
     border: solid 2px #283955;
     margin: 2.5%;
     border-radius: 7px;
-    height: 300px;
+    min-height: 180px;
+    width: 28%;
+    float: left;
+    text-align: center;
 }
 
-#about h2 {
-    padding-top: 10px;
+.about-box h2 {
+    padding-top: 7px;
 }
 
-#about p {
+.about-box p {
     margin-left: 10px;
     margin-right: 10px;
+    padding-bottom: 15px;
 }
 
 /* Footer Section */
@@ -285,3 +276,13 @@ img {
     color: whitesmoke;
     border: solid 2px whitesmoke;
 }
+
+/* For screen sizes from 1280px wide and down */
+@media screen and (max-width: 1280px) {
+
+    .about-box {
+        width: 90%;
+        clear: both;
+        min-height: 70px;
+        margin: 1% 5%;
+    }
