@@ -84,9 +84,9 @@ nav a:hover {
 
 .about-box {
     border: solid 2px #283955;
-    margin: 15px 2.5%;
+    margin: 1% 2.5%;
     border-radius: 7px;
-    min-height: 180px;
+    min-height: 220px;
     width: 28%;
     float: left;
     text-align: center;
@@ -149,6 +149,7 @@ footer {
 #social-media h3 {
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 0 5px;
 }
 
 /* Events Page */
@@ -199,7 +200,7 @@ img {
 
 .tip-box {
     border: solid 2px #283955;
-    margin: 2.5%;
+    margin: 1% 2.5%;
     border-radius: 7px;
     height: 700px;
 }
@@ -228,19 +229,17 @@ img {
 
 #tip-submission {
     width: 100%;
-    height: 500px;
+    height: 450px;
     clear: both;
 }
 
 #tip-form {
     color: whitesmoke;
     background-color: rgba(99, 132, 169, 0.8);
-    position: absolute;
-    left: 34%;
     padding: 35px;
-    margin: 4% 0 4% 0;
     max-width: 400px;
     border-radius: 7px;
+    margin: auto auto;
 }
 
 #tip-form h2 {
@@ -329,6 +328,25 @@ img {
     }
 }
 
+/* For screen sizes from 575px wide and down */
+@media screen and (max-width: 575px) {
+    #logo-div {
+        font-size: 70%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    #navigation {
+        width: 100%;
+        float: none;
+        clear: both;
+    }
+
+    nav a:visited {
+        color: whitesmoke;
+    }
+}
+
 /* For screen sizes from 320px wide and down */
 @media screen and (max-width: 320px) {
     #logo-div {
@@ -341,5 +359,9 @@ img {
         width: 100%;
         float: none;
         clear: both;
+    }
+
+    nav a:visited {
+        color: whitesmoke;
     }
 }
