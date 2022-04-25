@@ -155,8 +155,15 @@ footer {
 
 section > h2 {
     text-align: center;
+    line-height: 60px;    
+    font-size: 200%; 
+}
+
+.event-subheading {
+    text-align: center;
     clear: both;
-    margin-top: 10px;
+    line-height: 40px;    
+    font-size: 160%; 
 }
 
 img {
@@ -175,7 +182,7 @@ img {
 }
 
 .event-section > p {
-    margin: 5px 10px;
+    margin: 1%;
 }
 
 .event-subheading {
@@ -184,12 +191,6 @@ img {
 }
 
 /* Tips Page */
-
-#tips {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    text-align: center;
-}
 
 #shopping, #home, #out, #work, #garden, #clothes {
     width: 28%;
@@ -215,12 +216,14 @@ img {
 }
 
 #tips h2 {
-    padding: 7px;
-    font-weight: bold;
+    font-size: 200%;
+    line-height: 60px;
+    text-align: center;
 }
 
 #tips p {
-    padding: 2.5%;
+    margin: 1%;
+    text-align: center;
 }
 
 #tip-submission {
