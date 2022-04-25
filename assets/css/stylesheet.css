@@ -258,7 +258,7 @@ img {
     margin: 10 0 20 0;
 }
 
-#email, #firstname, #lastname, #suggestion {
+#email_address, #firstname, #lastname, #suggestion {
     border-radius: 4px;
     padding: 2px 8px;
     margin: 4px 0 8px 0;
