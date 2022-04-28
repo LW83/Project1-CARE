@@ -77,10 +77,10 @@ nav a:hover {
 
 /* About Us Section */
 
-.page-header {
-    font-size: 200%;
+.page-header > h2 {
     text-align: center;
     line-height: 60px;
+    font-size: 200%;
 }
 
 .about-box {
@@ -93,7 +93,7 @@ nav a:hover {
     text-align: center;
 }
 
-.about-box h2 {
+.about-box > h2 {
     padding-top: 7px;
 }
 
@@ -158,7 +158,6 @@ footer {
 section > h2 {
     text-align: center;
     line-height: 60px;    
-    font-size: 200%; 
 }
 
 .event-subheading {
@@ -310,10 +309,6 @@ img {
 /* For screen sizes from 1190px wide and down */
 @media screen and (max-width: 1190px) {
 
-    #shopping, #home, #out, #work, #garden, #clothes {
-        width: 90%;
-    }
-
     .tip-box {
         width: 90%;
         clear: both;
@@ -338,15 +333,15 @@ img {
         font-size: 90%
     }
 
-    .page-header {
+    .page-header > h2 {
         font-size: 180%;
     }
 
-    .about-box h2 {
+    .about-box > h2 {
         font-size: 180%;
     }
 
-    section > h2 {    
+    .event > h2 {    
         font-size: 180%; 
     }
 
@@ -354,7 +349,7 @@ img {
         font-size: 144%; 
     }
 
-    #tips h2 {
+    .tip-box > h2 {
         font-size: 180%;
     }
 }
@@ -375,15 +370,15 @@ img {
         margin-top: 25px;
     }
 
-    .page-header {
+    .page-header > h2{
         font-size: 150%;
     }
 
-    .about-box h2 {
+    .about-box > h2 {
         font-size: 150%;
     }
 
-    section > h2 { 
+    .event > h2 { 
         font-size: 150%;
     }
 
@@ -391,7 +386,7 @@ img {
         font-size: 120%; 
     }
 
-    #tips h2 {
+    .tip-box > h2 {
         font-size: 150%;
     }
 }
@@ -414,15 +409,15 @@ img {
         color: whitesmoke;
     }
 
-    .page-header {
+    .page-header > h2 {
         font-size: 140%;
     }
 
-    .about-box h2 {
+    .about-box > h2 {
         font-size: 140%;
     }
 
-    section > h2 { 
+    .event > h2 { 
         font-size: 140%;
     }
 
@@ -434,7 +429,7 @@ img {
         max-width: 300px;
     }
 
-    #tips h2 {
+    .tip-box > h2 {
         font-size: 140%;
     }
 }
@@ -464,15 +459,15 @@ img {
         color: whitesmoke;
     }
 
-    .page-header {
+    .page-header > h2 {
         font-size: 120%;
     }
 
-    .about-box h2 {
+    .about-box > h2 {
         font-size: 120%;
     }
 
-    section > h2 { 
+    .event > h2 { 
         font-size: 120%;
     }
 
@@ -480,7 +475,7 @@ img {
         font-size: 96%; 
     }
 
-    #tips h2 {
+    .tip-box > h2 {
         font-size: 120%;
     }
 }
