@@ -110,7 +110,7 @@ footer {
     clear:both;
 }
 
-#social li {
+#social > li {
     display: inline;
     font-size: 40px;
     padding: 5px;
@@ -147,7 +147,7 @@ footer {
     padding: 2px 8px;
 }
 
-#social-media h3 {
+#social-media > h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 0 5px;
@@ -155,7 +155,7 @@ footer {
 
 /* Events Page */
 
-section > h2 {
+.event > h2 {
     text-align: center;
     line-height: 60px;    
 }
@@ -165,6 +165,8 @@ section > h2 {
     clear: both;
     line-height: 40px;    
     font-size: 160%; 
+    background-color: #6e84a9;
+    color: whitesmoke;
 }
 
 img {
@@ -184,11 +186,6 @@ img {
 
 .event-section > p {
     margin: 1%;
-}
-
-.event-subheading {
-    background-color: #6e84a9;
-    color: whitesmoke;
 }
 
 /* Tips Page */
@@ -213,7 +210,7 @@ img {
     padding: 5px 0px;
 }
 
-.tip-box h2{
+.tip-box > h2{
     text-align: center;
     padding-top: 1%;
 }
@@ -238,7 +235,7 @@ img {
     margin: auto auto;
 }
 
-#tip-form h2 {
+#tip-form > h2 {
     margin-bottom: 12px;
 }
 
