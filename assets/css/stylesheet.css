@@ -49,11 +49,10 @@ nav a {
 }
 
 nav a:visited {
-    color: #6e84a9;
+    color: #a3a647;
 }
 
 nav a:hover {
-    text-decoration: underline;
     color: whitesmoke;
 }
 
@@ -64,6 +63,10 @@ nav a:hover {
     margin-top: 35px;
 }
 
+.active {
+    border-bottom: 3px solid #a3a647;
+}
+
 /* Hero Image */
 
 #hero-image {
@@ -72,7 +75,7 @@ nav a:hover {
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #283955;
+    background-color: whitesmoke;
 }
 
 /* About Us Section */
