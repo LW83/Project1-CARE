@@ -194,36 +194,32 @@ img {
 
 /* Tips Page */
 
-#shopping, #home, #out, #work, #garden, #clothes {
-    width: 28%;
-    float: left;
-}
-
 .tip-box {
     border: solid 2px #283955;
     margin: 1% 2.5%;
     border-radius: 7px;
     height: 700px;
+    width: 28%;
+    float: left;
 }
 
-#tips ul {
+.tip-box ul {
     width: 90%;
     margin-left: 7%;
     margin-right: 7%;
     text-align: left;
 }
 
-#tips ul > li {
+.tip-box ul > li {
     padding: 5px 0px;
 }
 
-#tips h2 {
-    font-size: 200%;
-    line-height: 60px;
+.tip-box h2{
     text-align: center;
+    padding-top: 1%;
 }
 
-#tips p {
+.page-header p {
     margin: 1%;
     text-align: center;
 }
