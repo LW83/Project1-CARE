@@ -97,6 +97,7 @@ nav a:hover {
 }
 
 .about-box > h2 {
+    font-size: 160%;
     padding-top: 7px;
 }
 
@@ -218,7 +219,8 @@ img {
     padding: 5px 0px;
 }
 
-.tip-box > h2{
+.tip-box > h2 {
+    font-size: 160%;
     text-align: center;
     padding-top: 1%;
 }
@@ -369,11 +371,11 @@ img {
         font-size: 90%
     }
 
-    .page-header > h2, .about-box > h2, .event > h2, .tip-box > h2 {
+    .page-header > h2, .event > h2 {
         font-size: 180%;
     }
 
-    .event-subheading, .event-text > h2 {   
+    .about-box > h2, .event-subheading, .event-text > h2, .tip-box > h2 {   
         font-size: 144%; 
     }
 
@@ -396,11 +398,11 @@ img {
         margin-top: 25px;
     }
 
-    .page-header > h2, .about-box > h2, .event > h2, .tip-box > h2 {
+    .page-header > h2, .event > h2 {
         font-size: 150%;
     }
 
-    .event-subheading, .event-text > h2 {   
+    .about-box > h2, .event-subheading, .event-text > h2, .tip-box > h2 {   
         font-size: 120%; 
     }
 }
@@ -441,11 +443,11 @@ img {
         color: whitesmoke;
     }
 
-    .page-header > h2, .about-box > h2, .event > h2, .tip-box > h2 {
+    .page-header > h2, .event > h2 {
         font-size: 140%;
     }
 
-    .event-subheading, .event-text > h2 {   
+    .about-box > h2, .event-subheading, .event-text > h2, .tip-box > h2 {   
         font-size: 112%; 
     }
 
@@ -481,11 +483,11 @@ img {
         color: whitesmoke;
     }
 
-    .page-header > h2, .about-box > h2, .event > h2, .tip-box > h2 {
+    .page-header > h2, .event > h2 {
         font-size: 120%;
     }
 
-    .event-subheading, .event-text > h2 {   
+    .about-box > h2, .event-subheading, .event-text > h2, .tip-box > h2 {   
         font-size: 96%; 
     }
 }
