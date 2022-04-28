@@ -369,25 +369,14 @@ img {
         font-size: 90%
     }
 
-    .page-header > h2 {
+    .page-header > h2, .about-box > h2, .event > h2, .tip-box > h2 {
         font-size: 180%;
-    }
-
-    .about-box > h2 {
-        font-size: 180%;
-    }
-
-    .event > h2 {    
-        font-size: 180%; 
     }
 
     .event-subheading, .event-text > h2 {   
         font-size: 144%; 
     }
 
-    .tip-box > h2 {
-        font-size: 180%;
-    }
 }
 
 /* For screen sizes from 700px wide and down */
@@ -407,15 +396,7 @@ img {
         margin-top: 25px;
     }
 
-    .page-header > h2 {
-        font-size: 150%;
-    }
-
-    .about-box > h2 {
-        font-size: 150%;
-    }
-
-    .event > h2 { 
+    .page-header > h2, .about-box > h2, .event > h2, .tip-box > h2 {
         font-size: 150%;
     }
 
@@ -423,9 +404,6 @@ img {
         font-size: 120%; 
     }
 
-    .tip-box > h2 {
-        font-size: 150%;
-    }
 }
 
 /* For screen sizes from 630px wide and down */
@@ -464,15 +442,7 @@ img {
         color: whitesmoke;
     }
 
-    .page-header > h2 {
-        font-size: 140%;
-    }
-
-    .about-box > h2 {
-        font-size: 140%;
-    }
-
-    .event > h2 { 
+    .page-header > h2, .about-box > h2, .event > h2, .tip-box > h2 {
         font-size: 140%;
     }
 
@@ -482,10 +452,6 @@ img {
 
     #tip-form {
         max-width: 300px;
-    }
-
-    .tip-box > h2 {
-        font-size: 140%;
     }
 }
 
@@ -516,24 +482,11 @@ img {
         color: whitesmoke;
     }
 
-    .page-header > h2 {
-        font-size: 120%;
-    }
-
-    .about-box > h2 {
-        font-size: 120%;
-    }
-
-    .event > h2 { 
+    .page-header > h2, .about-box > h2, .event > h2, .tip-box > h2 {
         font-size: 120%;
     }
 
     .event-subheading, .event-text > h2 {   
         font-size: 96%; 
     }
-
-    .tip-box > h2 {
-        font-size: 120%;
-    }
-
 }
