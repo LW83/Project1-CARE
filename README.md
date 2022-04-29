@@ -120,10 +120,6 @@ In deploying the site to GitHub pages, images issue.....
 - The photos used on the home and sign up page are from 
 - The images used for the gallery page were taken from 
 
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
 
 
 https://imagecolorpicker.com/en - used to match colour in photo to text etc
@@ -131,3 +127,6 @@ https://fsymbols.com/copyright/ for copyright symbol
 https://www.w3schools.com/html/html_favicon.asp for favicon 
 https://www.codegrepper.com/code-examples/html/css+change+font+awesome+icon+color to change colour of font awesome icon in logo
 https://stackoverflow.com/questions/19089018/how-to-align-form-at-the-center-of-the-page-in-html-css to centre form in middle of page 0 auto
+https://imageresizer.com/
+https://pxhere.com hero-image
+https://compressor.io photo compressor
