@@ -75,7 +75,7 @@ nav a:hover {
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: whitesmoke;
+    background-color: #283955;
 }
 
 /* About Us Section */
@@ -253,13 +253,13 @@ img {
 .text-input {
     width: 100%;
     height: 25px;
-    margin: 10 0 20 0;
+    margin: 10px 0 20px 0;
 }
 
 .text-input2 {
     width: 100%;
     height: 60px;
-    margin: 10 0 20 0;
+    margin: 10px 0 20px 0;
 }
 
 #email_address, #firstname, #lastname, #suggestion {
@@ -378,7 +378,6 @@ img {
     .about-box > h2, .event-subheading, .event-text > h2, .tip-box > h2 {   
         font-size: 144%; 
     }
-
 }
 
 /* For screen sizes from 700px wide and down */
