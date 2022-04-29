@@ -23,16 +23,17 @@
                     <em>Community Action for Resources and the Environment</em></h1>
                 </a>
             </div>
+<!--Navigation menu for site-->
             <nav id="navigation">
                 <ul>
                     <li>
-                        <a href="tips.html" class="active">Tips</a>
+                        <a href="tips.html" class="active" aria-label="Brings you to Tips page of site">Tips</a>
                     </li>
                     <li>
-                        <a href="events.html">Events</a>
+                        <a href="events.html" aria-label="Brings you to Events page of site">Events</a>
                     </li>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html" aria-label="Brings you to Home page of site">Home</a>
                     </li>
                 </ul>
             </nav>
@@ -75,7 +76,7 @@
                     <li>Turn your thermostat down a degree or two</li>
                     <li>Use washable cotton pads instead of disposable and paper cotton buds instead of plastic</li>
                     <li>When changing your appliances, go for A rated energy efficient appliances</li>
-                    <li>Know yourt recycling and what goes in what bin. Check out this handy guide from <a href="https://www.panda.ie/wp-content/uploads/2022/01/Panda_What-can-go-into-each-bin.pdf" target="_blank" rel="noopener" aria-label="Panda guide to usage of waste, recycling and compost bins">Panda</a></li>
+                    <li>Know yourt recycling and what goes in what bin. Check out this handy guide from <a href="https://www.panda.ie/wp-content/uploads/2022/01/Panda_What-can-go-into-each-bin.pdf" target="_blank" rel="noopener" aria-label="Panda guide to usage of waste, recycling and compost bins (Opens a PDF document in a new tab)">Panda</a></li>
                     <li>Reduce your usage of cling film: try beeswax container covers, aluminium foil or even a resusable shower hat to cover bowls</li>
                     <li>Try to rehome or repurpose items rather than sending to landfill, most charity shops will gladly welcome what you no longer need</li>
                     <li>Use left over food and get creative to plan dishes around what is left in the fridge</li>
@@ -158,16 +159,16 @@
         <section id="tip-submission">
                 <form id="tip-form" action="formdump.html" method="get">
                     <h2>Change the World - Tip by Tip!</h2>
-                    <label for="firstname">First Name</label>
+                    <label for="firstname">First Name <em>(*required)</em></label>
                     <input class="text-input" id="firstname" name="first_name" type="text" required>
                     
-                    <label for="lastname">Last Name</label>
+                    <label for="lastname">Last Name <em>(*required)</em></label>
                     <input class="text-input" id="lastname" name="last_name" type="text" required>
                     
-                    <label for="email">Email Address</label>
+                    <label for="email_address">Email Address <em>(*required)</em></label>
                     <input class="text-input" type="email" id="email_address" name="email_address" required>
                     
-                    <label for="suggestion">My Tip</label>
+                    <label for="suggestion">My Tip <em>(*required)</em></label>
                     <input class="text-input2" id="suggestion" name="tip-suggestion" type="text" required>
                     
                     <input class="submit-button2" type="submit" value="Share my Tip!">

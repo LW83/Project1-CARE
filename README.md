@@ -130,3 +130,6 @@ https://stackoverflow.com/questions/19089018/how-to-align-form-at-the-center-of-
 https://imageresizer.com/
 https://pxhere.com hero-image
 https://compressor.io photo compressor
+https://www.w3.org/WAI/test-evaluate/preliminary/ - accessibility checks - alt tags, keyboard navigation, title description color contrast, form labels and keyboard access, required
+https://wave.webaim.org/
+https://www.a11yproject.com/checklist/
