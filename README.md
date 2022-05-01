@@ -20,9 +20,8 @@ Welcome to the homepage of CARE, a Dublin based community group passionate about
 
 ### UX
 
-- __Audience__
+- __Target Audience__
 
- - The target audience for this site includes: 
    - Individuals passionate about the environment and keen to get involved in clean up activities.
    - Individuals interested in making environmentally friendly changes in their own life and looking for tips and ideas.
    - Individuals in the Dublin area who are looking to integrate more into their community and get to know people through social events.
@@ -52,24 +51,28 @@ Welcome to the homepage of CARE, a Dublin based community group passionate about
     - Balancing the message with some humor to engage the user and to ansure a feeling of approachability. 
 
 ### Wireframes
- - Once I had decided on the theme for the site, I used Balsamiq to do some high level wireframes for the desktop version of the site: 
+ Once I had decided on the theme for the site, I used Balsamiq to do some high level wireframes for the desktop version of the site: 
 
-__Homepage__
+- __Homepage__
+
  ![Balsamiq Homepage](./docs/balsamiq_homepage.png)
   - I knew I wanted to set out three boxes with information about who the group is, what they do and why they do it. 
   - The key change in the final site from the wireframe is that I decided to overlay the logo and nav bar on top of the hero-image as once I found the image I felt that this looked more visually striking. 
   - I also decided to include the newsletter sign up in the footer bar to facilitate this sign-up as the footer would be replicated across all pages. 
 
-__Events page__
+- __Events page__
+
   ![Balsamiq Events](./docs/balsamic_events.png)
    - The key change in the Events page was to have three events for each month sit side by side in a row on the desktop display rather than stacked as this makes it easier for the user to see a summary of what is planned quickly and easily. 
-   - For tablet screen sizes though, this initial plan to stack each event was implemented so as not to make the information on a single row too crowded on a smaller screen size. 
+   - For tablet screen sizes, the initial plan to stack each event was implemented so as not to make the information on a single row too crowded on a smaller screen size. 
 
-__Tips page__
+- __Tips page__
+
   ![Balsamiq Tips](./docs/balsamiq_tips.png)
    - The key change in the Tips page from the original wireframe concept was to have include a tips submission form to encourage engagement from the user. 
 
-__Mobile view__
+- __Mobile view__
+
   ![Balsamiq Mobile](./docs/balsamiq_mobile.png)
    - The key intention from the mobile mock-up was that the information would be stacked vertically as opposed to shown vertically across larger screen sizes.  
 
@@ -77,13 +80,13 @@ __Mobile view__
 ### Color Scheme
 - To decide on the color scheme for the site, I first selected the hero-image which would make up the header across each of the pages. This image was selected from [Pxhere](https://pxhere.com/).
 - Once I had decided on the image, I used [Image Color Picket](https://imagecolorpicker.com/en) to identify different colors within the image to use as the basis for font, border and icon colors within the site. 
-- In order to ensure the colors selected had sufficient contrast to meet accessibility requirements, I validated the color palette using [Eight Shapes Contrast Grid](https://contrast-grid.eightshapes.com)
+- In order to ensure the colors selected had sufficient contrast to meet accessibility requirements, I validated the color palette using [Eight Shapes Contrast Grid](https://contrast-grid.eightshapes.com).
 
 ![Color Contrast](./docs/color_contrast_screenshot.png)
 
 ### Fonts
- - The fonts utilised are consistent across the page and are from Google fonts. 
- - The font for the logo and navigation bar are Red Hat Display for the Logo and Navigation bar. I chose this font as I felt it wass strong, very legible and helped created a good first impact against the striking hero image. 
+ - The fonts utilised are consistent across the page and are from [Google fonts](https://fonts.google.com/). 
+ - The font for the logo and navigation bar is Red Hat Display. I chose this font as I felt it wass strong, very legible and helped created a good first impact against the striking hero image. 
  - For the body of the site, I have used Comic Neue. I chose this font for the main body as I felt it balanced friendliness and approachability whilst maintaining a clean and professsional look. 
  - Sans serif has been applied as a backup font for both. 
 
@@ -198,7 +201,7 @@ __Mobile view__
 
   - Two hidden form feedback pages exist to provide feedback to the user where they sign up to the newsletter or submit a tip suggestion. 
   - These are not functioning forms but are created using the method "Get" to call a feedback page. 
-  - Following a sign-up to the Newsletter, the user is taken to a page with a "Welcome! Thanks for Signing Up!" message and a link to return to the homepage. All other aspects of the page including header and footer are consistent with the other pages of the site. 
+  - Following a sign-up to the newsletter, the user is taken to a page with a "Welcome! Thanks for Signing Up!" message and a link to return to the homepage. All other aspects of the page including header and footer are consistent with the other pages of the site. 
 
   ![Newsletter Feedback](./docs/newsletter_signup.png)
 
@@ -216,7 +219,7 @@ __Mobile view__
 ## Testing 
 
 ### Responsiveness Testing
- - Responsiveness of the site was tested using Dev Tools for all screen size widths from 320px up to 1700px.
+ - Responsiveness of the site was tested using Dev Tools for all screen size widths from 320px up to 1750px.
  - Responsiveness was also specifically checked for the following devices within Dev Tools:
       - iPhone SE
       - iPhone XR
@@ -244,7 +247,10 @@ __Mobile view__
 
     - Dev Tools Lighthouse Report (screenshot included in Validation Testing section below)
     - [Wave (Web Accessibility Evaluation Tool)](https://wave.webaim.org/)
-    - A11y project checklist 
+          [Wave Homepage Test](./docs/wave_homepage_test.png)
+          [Wave Events Page Test](./docs/wave_eventspage_test.png)
+          [Wave Tips Page Test](./docs/wave_tipspage_test.png)
+    - [A11y project checklist](https://www.a11yproject.com/checklist/) 
 
   - The following aspects of the site development have been specifically included with accessibility in mind and as recommended by the above sources: 
     - For all images on the Events page, alt tags with appropriate descriptions have been applied.
@@ -253,7 +259,7 @@ __Mobile view__
     - All color contrasts have been tested and validated. 
     - All forms have appropriate labels and the tips form specifically calls out in text the required fields. 
     - Icons including social media icons have appropriate aria-labels applied. 
-    - Semantic HTML tags have been used including headers, nav, h1, h2, h3, section, footer etc. 
+    - Semantic HTML tags have been used including headers, nav, h1, h2, h3, section, footer. 
  
 ### Validation Testing 
 
@@ -264,17 +270,30 @@ __Mobile view__
   ![W3C validator Tips](./docs/w3c_tipspage_htmlvalidation.png)
 
 - __CSS Validation__
-  - No errors were found when passing through the official 
+  - No errors were found when passing through the official W3C Validator.
   ![(Jigsaw) validator](./docs/w3c_css_validation.png)
 
 - __Lighthouse Report__
   - In addition to the HTML and CSS Validation, I generated a lighthouse report for the site pages through Dev Tools.
+
   ![Lighthouse Report](./docs/lhreport_homepage_1280px.png)
+
   ![Lighthouse Report](./docs/lhreport_events_1280px.png)
+
   ![Lighthouse Report](./docs/lhreport_tips_1280px.png)
 
+  In addition all links within the site have been tested to ensure they are functioning as intended. 
+
+### Fixed Bugs
+ - Most bugs I had during the development of this project related to playing around with sizes and positioning particularly in relation to responsiveness of the site to difference screen sizes and were largely resolved through trial and error. 
+ - Header Logo Div: One specific issue I had early on in the project was a white gap that was appearing between the hero image and the top of the page once the logo had been added. After some trial and error, I found that apply a float:left to the logo div resolved this issue and the image sat flush to the top of the page. 
+ - Tip Submission Form: I had initially tried to use absolute positioning for the Tip Submission form on the Tips page but was struggling to centre the box properly and found it was not well suited to different screen sizes. I instead applied a margin:auto to centre within the container div on the page.
+ - GitHub Deployment: When I first deployed the page to Gitpod, I found the images across the site were not loading. After some research on GitHub Community, I found that this was due to me having a / before the assets folder in the directory path which was preventing the files from loading. 
 
 ### Unfixed Bugs
+- Bold
+- Thumb
+- Hero-image
  
 ***
 ## Deployment
@@ -290,36 +309,58 @@ On initial deployment of the site to GitHub pages, I found the images were not l
 
 ***
 ## Credits  
- - The following tools are resources have been utilised in the creation of this project: 
-     - https://imagecolorpicker.com/en - used to match colour in photo to text
-     - https://fsymbols.com/copyright/ for copyright symbol
-     - https://www.w3schools.com/html/html_favicon.asp for favicon 
-     - https://www.codegrepper.com/code-examples/html/css+change+font+awesome+icon+color to change colour of font awesome icon in logo
-     - https://stackoverflow.com/questions/19089018/how-to-align-form-at-the-center-of-the-page-in-html-css to centre form in middle of page 0 auto
-     - https://www.w3.org/WAI/test-evaluate/preliminary/ - accessibility checks
-     - https://wave.webaim.org/
-     - https://www.a11yproject.com/checklist/
-     - Slack
-     - Stackoverflow
-     - W3Schools
-     - GitHub Community Forum
-
- - In addition a big thank you to the following people for their assistance in this project:
 
 ### Content 
-
-- The text for the tips page was 
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- Google Fonts
-- Love Running 
-- W3C Validators
-- Color
-- Accessability 
+ - As this group is fictional a large portion of the content of the site is also fictional including the About and Events sections of the site. 
+ - For the tips page, this content has been created but leverages ideas and content from the following books:
+     - 12 Small Acts to Save Our World - WWF
+     - Save the World There is no Planet B - Louise Bradford
 
 ### Media
+ - The images used in the site have been taken from the following sources and copyright remains with these sources: 
+     - Hero Image: [Pxhere](https://pxhere.com)
+     - Marlay Image: [Wikipedia](https://en.wikipedia.org/wiki/Marlay_Park)
+     - Bushy Image: [Wikipedia](https://en.wikipedia.org/wiki/Bushy_Park,_Dublin)
+     - Cabinteely Image: [DLRCoCo](https://www.dlrcoco.ie/en/cabinteely-park)
+     - Dodder Image: [Wikipedia](https://en.wikipedia.org/wiki/River_Dodder)
+     - Grand Canal Image: [Wikipedia](https://en.wikipedia.org/wiki/Grand_Canal_(Ireland))
+     - Poddle Image: [Wikipedia](https://en.wikipedia.org/wiki/River_Poddle)
+     - Sandymount Image: [Flickr - ALESSIO MICHELINI](https://www.flickr.com/photos/darkmavis/48503014761)
+     - Sandycove Image: [Ireland Higlights](https://www.irelandhighlights.com/info/sandycove-beach/)
+     - Killiney Image: [DLRCoCo](https://www.dlrcoco.ie/en/news/general-news-press-releases/blue-flag-awarded-killiney-and-seapoint-beach)
 
-- The hero-image used in the header is from https://pxhere.com
-- The images used for the gallery page were taken from 
-- Images have been scales and resized using https://imageresizer.com/
-- Images have been compressed using https://compressor.io
+### Languages Used
+  - HTML5
+  - CSS3
 
+### Tools & Online Resources Utilised
+ - The following tools and resources have been utilised in the creation of this project: 
+     - [Balsamiq](https://balsamiq.com/): For creation of wireframes.
+     - GitHub & Gitpod: For development and deployment of the site.
+     - [Pxhere](https://pxhere.com): To provide a suitable hero image. 
+     - [Image Color Picker](https://imagecolorpicker.com/en): To match colours from the hero image.
+     - [Google Fonts](https://fonts.google.com/): For site fonts.
+     - [Image resizer](https://imageresizer.com/): For resizing images.
+     - [Compressor.io](https://compressor.io/): For compressing image file sizes. 
+     - [Font Awesome](https://fontawesome.com/): For icons used across the site. 
+     - [FS Symbols](https://fsymbols.com/copyright/): For the copyright symbol for inclusion in the footer. 
+     - [W3 Schools](https://www.w3schools.com/html/html_favicon.asp): For general guidance and research and for how to include a favicon. 
+     - [Code Grepper](https://www.codegrepper.com/code-examples/html/css+change+font+awesome+icon+color): To change the colour of the font awesome icon in logo.
+     - [Stack Overflow](https://stackoverflow.com/questions/19089018/how-to-align-form-at-the-center-of-the-page-in-html-css): For general guidance and research and for how to centre form.
+     - [WAI Test](https://www.w3.org/WAI/test-evaluate/preliminary/): For accessibility checks
+     - [Wave (Web Accessibility Evaluation Tool)](https://wave.webaim.org/): For accessibility checks
+     - [A11y project checklist](https://www.a11yproject.com/checklist/): For accessibility checks
+     - [Eight Shapes Contrast Grid](https://contrast-grid.eightshapes.com): For color contract checks
+     - [Slack](https://slack.com/intl/en-ie/): For general guidance and research on project considerations, positioning and sizing. 
+     - [GitHub Community Forum](https://github.community/): For guidance on resolving image load on deployment of site. 
+     - Google Chrome Dev Tools: For validation and responsiveness checks
+     - [Am I Responsive](https://ui.dev/amiresponsive): To create the multi-device screenshot for inclusion in my Readme file. 
+     - [W3C CSS (Jigsaw) Validator](https://jigsaw.w3.org/css-validator/)
+     - [W3C HTML Validator](https://validator.w3.org/)
+     - Code Institute & Love Running Demonstration: For guidance and inspiration for this site. 
+
+### People
+ - In addition a big thank you to the following people for their assistance in this project:
+     - Kasia Bogucka: Our cohort facilitator for keeping us all on track and answering all and any of the many questions!
+     - My cohort: For our weekly checkins and tips
+     - David Bowers: For the guidance, notes and videos shared via Slack that were extremely useful in planning and executing this portfolio project. 
