@@ -2,7 +2,7 @@
 ***
 ## Overview 
 
-Welcome to the homepage of CARE, a Dublin based community group passionate about helping the environment, promoting sustainability and eco-friendliness. The site sets out who the group are, what they aim to achieve and how and allows members of the community to get actively involved through engagemet with social media profiles, participation in organised events and/or through application of suggested tips in their own day to day life.  
+Welcome to the homepage of CARE, a Dublin based community group passionate about helping the environment, promoting sustainability and eco-friendliness. The site sets out who the group are, what they aim to achieve and how and allows members of the community to get actively involved through engagement with social media profiles, participation in organised events and/or through application of suggested tips in their own day to day life.  
 
 **NOTE: This group has been created for the sole purposes of creating this website to demonstrate HTML and CSS skills. The group itself and the events noted are not real.**
 
@@ -22,14 +22,14 @@ Welcome to the homepage of CARE, a Dublin based community group passionate about
 
 - __Target Audience__
 
-   - Individuals passionate about the environment and keen to get involved in clean up activities.
+   - Individuals passionate about the environment and keen to get involved in environmentally-focused activities.
    - Individuals interested in making environmentally friendly changes in their own life and looking for tips and ideas.
    - Individuals in the Dublin area who are looking to integrate more into their community and get to know people through social events.
-   - Other environmental groups in Dublin and further afield for ideas on what other groups are doing, initiatives that it may be possible to collaboarate on. 
+   - Other environmental groups in Dublin and further afield for ideas on what other groups are doing and/or initiatives that it may be possible to collaboarate on. 
 
 - __User Stories__
 
-   - As a user, I want to understand more about the group and what it does.
+   - As a new user, I want to understand more about the group and what it does.
    - As a user, I want to know about events being run in my area. 
    - As a user, I want to know more about past events that have been run and where. 
    - As a user, I want to be able to get ideas of things I can do myself in this space to make an impact.
@@ -42,36 +42,36 @@ Welcome to the homepage of CARE, a Dublin based community group passionate about
     - Implementation of a site with logical flow and easy, intuitive navigation. 
     - Not overwhelming the user with content. 
     - Setting out some high-level information about the group on the homepage to give the user more context. 
-    - Proiding details of upcoming events and locations for those who wish to get involved. 
+    - Providing details of upcoming events and locations for those who wish to get involved. 
     - Providing details of recent events and social media links for those who were involved or want to get more of a feel for what events are like. 
     - Providing suggested tips to users to allow them to implement what they feel comfortable doing in their own lives. 
     - Facilitating input from users to involve them and make them feel part of the solution. 
     - Providing easy access to related social media pages for additional photos and updates. 
     - Enabling users to sign up to a newsletter for updates on the groups latest content. 
-    - Balancing the message with some humor to engage the user and to ansure a feeling of approachability. 
+    - Balancing the message with some humor to engage the user and to ensure a feeling of approachability. 
 
 ### Wireframes
  Once I had decided on the theme for the site, I used Balsamiq to do some high level wireframes for the desktop version of the site: 
 
-- __Homepage__
+__Homepage__
 
  ![Balsamiq Homepage](./docs/balsamiq_homepage.png)
   - I knew I wanted to set out three boxes with information about who the group is, what they do and why they do it. 
   - The key change in the final site from the wireframe is that I decided to overlay the logo and nav bar on top of the hero-image as once I found the image I felt that this looked more visually striking. 
   - I also decided to include the newsletter sign up in the footer bar to facilitate this sign-up as the footer would be replicated across all pages. 
 
-- __Events page__
+__Events page__
 
   ![Balsamiq Events](./docs/balsamic_events.png)
    - The key change in the Events page was to have three events for each month sit side by side in a row on the desktop display rather than stacked as this makes it easier for the user to see a summary of what is planned quickly and easily. 
    - For tablet screen sizes, the initial plan to stack each event was implemented so as not to make the information on a single row too crowded on a smaller screen size. 
 
-- __Tips page__
+__Tips page__
 
   ![Balsamiq Tips](./docs/balsamiq_tips.png)
    - The key change in the Tips page from the original wireframe concept was to have include a tips submission form to encourage engagement from the user. 
 
-- __Mobile view__
+__Mobile view__
 
   ![Balsamiq Mobile](./docs/balsamiq_mobile.png)
    - The key intention from the mobile mock-up was that the information would be stacked vertically as opposed to shown vertically across larger screen sizes.  
@@ -95,14 +95,14 @@ Welcome to the homepage of CARE, a Dublin based community group passionate about
 
 ### Header & Navigation
 
-- __Hero image__
+__Hero image__
 
   - All pages of the site have a consistent header, a key element of which is large and striking image of Ireland which drives the color palette for the entire site and reinforces the focus of the group being an Irish based, environmentally-focused community group. 
   - In the event that the image does not load, there is also background color assigned to ensure the logo and navigation bar remain fully visible to the user. 
 
   ![Hero Image](./docs/fullheader.png)
 
-- __Logo__
+__Logo__
 
   - The logo sets out both the abbreviated and full name of the group and is complimented by a font awesome icon to denote the environment.
   - The font has a color of whitesmoke to contrast against the color of the hero-image whilst being complimentary to the clouds in the image and links back to the homepage across all pages of the site.
@@ -113,7 +113,7 @@ Welcome to the homepage of CARE, a Dublin based community group passionate about
 
   ![Logo Tablet](./docs/logoandnavtablet.png)
 
-- __Navigation Bar__
+__Navigation Bar__
 
   - Featured on all three pages, the navigation bar includes links to the Home page, Events and Tips pages and is replicated in design and functionality across each page to allow for consistency, easy navigation and good UX.
   - This has been floated to the right of the page to align with the top of the CARE logo. 
@@ -124,11 +124,11 @@ Welcome to the homepage of CARE, a Dublin based community group passionate about
   ![Nav Bar](./docs/navbar.png)
   
   - An active class has also been implemented to highlight to the user the current page being viewed. 
-  - The navigation bar is fully responsive, for smaller screens, the bar drops below the logo retaining its place on the right side of the screen so as not to compete for space with the logo. In addition the font-color remains white smoke to ensure sufficient contrast with the hero-image given the new placement. 
+  - The navigation bar is fully responsive and for smaller screens, the bar drops below the logo retaining its place on the right side of the screen so as not to compete for space with the logo. In addition the font-color remains white smoke to ensure sufficient contrast with the hero-image given the new placement. 
   
   ![Nav Bar Mobile](./docs/logoandnavmobile.png)
 
-- __Favicon__
+__Favicon__
 
   -  A favicon has been added to show up in the title of the page and is consistent with the icon used in the logo itself. 
   
@@ -147,7 +147,7 @@ Welcome to the homepage of CARE, a Dublin based community group passionate about
 
 ### Home Page
 
-  - The About section on the site is focused on setting out for the user who the group are, what they do and why they do it. 
+  - The About section of the Home page is focused on setting out for the user who the group are, what they do and why they do it. 
   - Boxes and font awesome icons have been added to distinguish these sections.
   - This page has been kept deliberately lighter on content so as not to overwhelm a potential new user.  
   - For desktop layouts, the about boxes sit side by side in a float structure. 
@@ -160,7 +160,7 @@ Welcome to the homepage of CARE, a Dublin based community group passionate about
 
 ### Events Page
 
-  - The Events page of the site sets out both current events planned for upcoming months and recent events that the group have organised. The current events are shown first on the page and recent events after to follow what the user would expect when looking for Event information. 
+  - The Events page of the site sets out both current events planned for upcoming months and recent events that the group have organised. The current events are shown first on the page and recent events after to follow what the user would expect when looking for event information. 
   - Current events set out the time, date and location for each event and include an image from the location to engage the user. 
   - Recent events set out date of the event and some brief information regarding the number of volunteers that turned out as well as links to Facebook and Instagram social media pages for further photos of the event. Again this is for demonstration purposes and no social media pages have been created for this purpose. 
   - The social media links all open in new tabs for the user. 
@@ -182,7 +182,7 @@ Welcome to the homepage of CARE, a Dublin based community group passionate about
   - The Tips page of the site provides a list of tips for the user to implement in different aspects of their day to day life. This is arranged by area to faciliate the user focusing on a specific aspect such as Shopping or Garden. It provides handy tips ranging from the very small to more substantial that a user can implement based on what suits their individual lifestyle and preferences. 
   - Consistent with the structure of the homepage, the tips have been organised into boxes with relevant font awesome icons applied to help differentiate each box for the user. 
   - Some fun has been added in to the comments to lighten the content and help to engage the user. 
-  - Within the tips page, there is a link to a Panda reference guide for recycling which open in a new tab for the user. 
+  - Within the tips page, there is a link to a Panda reference guide for recycling which opens in a new tab for the user. 
   - The page also includes a form which enables users to submit their own tip suggestions for inclusion on the page again encouraging engagement and action from the user. 
 
   ![Tip Submission Box](./docs/tip_submission_box.png)
@@ -201,20 +201,20 @@ Welcome to the homepage of CARE, a Dublin based community group passionate about
 
   - Two hidden form feedback pages exist to provide feedback to the user where they sign up to the newsletter or submit a tip suggestion. 
   - These are not functioning forms but are created using the method "Get" to call a feedback page. 
-  - Following a sign-up to the newsletter, the user is taken to a page with a "Welcome! Thanks for Signing Up!" message and a link to return to the homepage. All other aspects of the page including header and footer are consistent with the other pages of the site. 
+  - Following a sign-up to the newsletter, the user is taken to a page with a "Welcome! Thanks for signing up!" message and a link to return to the homepage. All other aspects of the page including header and footer are consistent with the other pages of the site. 
 
   ![Newsletter Feedback](./docs/newsletter_signup.png)
 
-  - Following a tip-submission, the user is taken to a page with a "Thank you for your Submission!" message and a link to return to the homepage. Again, all other aspects of the page including header and footer are consistent with the other pages of the site.
+  - Following a tip-submission, the user is taken to a page with a "Thank you for your submission!" message and a link to return to the homepage. Again, all other aspects of the page including header and footer are consistent with the other pages of the site.
 
   ![Tip Submission](./docs/tip_submission.png)
 ***
 ## Potential Future Features
 
  - Potential additional future features for the site include: 
-      - Embedding a video in the About section of the homepage was considered, but due to the fictional nature of the group it was not possible to find a suitable video. This is something that could be added at a future point. 
-      - Image gallery: It may be worth including a gallery of images from events within the site itself for users. Currently the site directs users to social media profiles for the group to meet this requirement as the more common way for share more real-time updates. 
-      - Download functionality for tips page: Given the content included in the tips page, providing fucntionality for users to download the list is a future fucntionality for the site which would likely be beneficial.  
+      - Embedding a video in the About section of the Home page was considered but due to the fictional nature of the group it was not possible to find a suitable video. This is something that could be added at a future point. 
+      - Image gallery: It may be worth including a gallery of images from events within the site itself for users. Currently the site directs users to social media profiles for the group to meet this requirement as the more common way for sharing more real-time updates. 
+      - Download functionality for Tips page: Given the content included in the tips page, providing fucntionality for users to download the list is a future fucntionality for the site which would likely be beneficial.  
 ***
 ## Testing 
 
@@ -234,7 +234,7 @@ Welcome to the homepage of CARE, a Dublin based community group passionate about
       - Samsung Galaxy A51/71
       - Nest Hub
       - Nest Hub Max
- - Specific breakpoints for each page were identified and managed through media queries. These were focused on adjusting the layout of boxes on the page, the size of margins and padding and also adjust the font-size for smaller screen sizes. 
+ - Specific breakpoints for each page were identified and managed through media queries. These were focused on adjusting the layout of boxes on the page, the size of margins and padding and also adjusting the font-size for smaller screen sizes. 
  - I did not use Flexbox or CSS Grid in this project as I wanted to better familiarise myself and understand the float model but plan to use one or both of these newer methods in a future project. 
 
 ### Browser Testing
@@ -263,17 +263,17 @@ Welcome to the homepage of CARE, a Dublin based community group passionate about
  
 ### Validation Testing 
 
-- __HTML Validation__
+__HTML Validation__
   - No errors were returned for any of the pages in the site when passing through the official W3C Validator. 
   ![W3C validator Homepage](./docs/w3c_homepage_htmlvalidation.png)
   ![W3C validator Events](./docs/w3c_eventspage_htmlvalidation.png)
   ![W3C validator Tips](./docs/w3c_tipspage_htmlvalidation.png)
 
-- __CSS Validation__
+__CSS Validation__
   - No errors were found when passing through the official W3C Validator.
   ![(Jigsaw) validator](./docs/w3c_css_validation.png)
 
-- __Lighthouse Report__
+__Lighthouse Report__
   - In addition to the HTML and CSS Validation, I generated a lighthouse report for the site pages through Dev Tools.
 
   ![Lighthouse Report](./docs/lhreport_homepage_1280px.png)
@@ -286,13 +286,13 @@ Welcome to the homepage of CARE, a Dublin based community group passionate about
 
 ### Fixed Bugs
  - Most bugs I had during the development of this project related to playing around with sizes and positioning particularly in relation to responsiveness of the site to difference screen sizes and were largely resolved through trial and error. 
- - Header Logo Div: One specific issue I had early on in the project was a white gap that was appearing between the hero image and the top of the page once the logo had been added. After some trial and error, I found that apply a float:left to the logo div resolved this issue and the image sat flush to the top of the page. 
- - Tip Submission Form: I had initially tried to use absolute positioning for the Tip Submission form on the Tips page but was struggling to centre the box properly and found it was not well suited to different screen sizes. I instead applied a margin:auto to centre within the container div on the page.
- - GitHub Deployment: When I first deployed the page to Gitpod, I found the images across the site were not loading. After some research on GitHub Community, I found that this was due to me having a / before the assets folder in the directory path which was preventing the files from loading. 
+ - Header Logo Div: One specific issue I had early on in the project was a white gap that was appearing between the hero image and the top of the page once the logo had been added. After some trial and error, I found that applying a float:left to the logo div resolved this issue and the hero image sat flush to the top of the page. 
+ - Tip Submission Form: I had initially tried to use absolute positioning for the tip submission form on the Tips page but was struggling to centre the box properly and found it was not well suited to different screen sizes. I instead applied margin:auto to centre within the container div on the page.
+ - GitHub Deployment: When I first deployed the page to GitHub, I found the images across the site were not loading. After some research on GitHub Community, I found that this was due to me having a / before the assets folder in the directory path which was preventing the files from loading. 
 
 ### Unfixed Bugs
-- During the project there were a couple of ideas, I had which I found were not possible to implement for various reasons, so whilst not stricly unfixed bugs these included: Bold
-  - Bold: My preference was to bold the H2 headings on the three pages of the site to give them more impact however having tried using font-weight and strong, neither were applying a bold finish to the headings. After some research I found that certain fonts will not support a bold style. Given that I was happy with the font, I decided to keep the font and forgo bolding the headers as I don't believe it made a significant impact for the user of the site. 
+- During the project there were a couple of ideas I had which I found were not possible to implement for various reasons, so whilst not stricly unfixed bugs these included:
+  - Bold: My preference was to bold the H2 headings on the three pages of the site to give them more vidual impact however having tried using font-weight and strong, neither were applying a bold finish to the headings. After some research I found that certain fonts will not support a bold style. Given that I was happy with the font, I decided to keep the font and forgo bolding the headers as I don't believe it made a significant impact for the user of the site. 
   - Form feedback: Initally I had wanted to include a font awesome 'thumbs up' icon to provide user feedback on sign up to the newsletter without taking the user away from the site page that they were on however I was not able to find a method of doing this via CSS and HTML and believe javascript may be required for this functionality. 
   - Hero-image scaling for screen widths above 2000px: When the site is displayed on screens above 2000px, the land portion of the hero image is lost which detracts slightly from the visual impaact of the site. I may explore in future whether it is more appropriate to pull in an alternative image for viewing on larger screen sizes but given how the hero image drives the color palette for the site, it is not something I have implemented in the current design.
  
