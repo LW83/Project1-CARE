@@ -292,21 +292,21 @@ __Lighthouse Report__
 
 ### Unfixed Bugs
 - During the project there were a couple of ideas I had which I found were not possible to implement for various reasons, so whilst not stricly unfixed bugs these included:
-  - Bold: My preference was to bold the H2 headings on the three pages of the site to give them more vidual impact however having tried using font-weight and strong, neither were applying a bold finish to the headings. After some research I found that certain fonts will not support a bold style. Given that I was happy with the font, I decided to keep the font and forgo bolding the headers as I don't believe it made a significant impact for the user of the site. 
-  - Form feedback: Initally I had wanted to include a font awesome 'thumbs up' icon to provide user feedback on sign up to the newsletter without taking the user away from the site page that they were on however I was not able to find a method of doing this via CSS and HTML and believe javascript may be required for this functionality. 
-  - Hero-image scaling for screen widths above 2000px: When the site is displayed on screens above 2000px, the land portion of the hero image is lost which detracts slightly from the visual impaact of the site. I may explore in future whether it is more appropriate to pull in an alternative image for viewing on larger screen sizes but given how the hero image drives the color palette for the site, it is not something I have implemented in the current design.
+  - Bold: My preference was to bold the H2 headings on the three pages of the site to give them more vidual impact however having tried using font-weight and strong, neither were applying a bold finish to the headings. After some research I found that certain fonts will not support a bold style. Given that I was happy with the font, I decided to keep the font and forgo bolding the headers as I don't believe it makes a significant impact for the user of the site. 
+  - Form feedback: Initally I had wanted to include a font awesome 'thumbs up' icon to provide user feedback on sign up to the newsletter without taking the user away from the site page that they were on, however I was not able to find a method of doing this via CSS and HTML and believe Javascript may be required for this functionality. 
+  - Hero-image scaling for screen widths above 2200px: When the site is displayed on screens above 2200px, the land portion of the hero image is lost which detracts slightly from the visual impact of the site. I may explore in future whether it is more appropriate to pull in an alternative image for viewing on larger screen sizes but given how the hero image drives the color palette for the site, it is not something I have implemented in the current design.
  
 ***
 ## Deployment
 
 - The site was deployed to GitHub pages following the below deployment steps: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - In the GitHub repository, navigating to the Settings tab 
+  - From the source section drop-down menu, selecting the Master Branch
+  - Once the master branch was been selected, the page automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here: [CARE - Community Action for Resources and the Environment](https://lw83.github.io/Project1-CARE/) 
 
-On initial deployment of the site to GitHub pages, I found the images were not loading and upon some research found that I needed to remove the first forward slash in address location in order to pull in the image correctly for the deloyed site. This was resolved thanks to the GitHub community forum. 
+As noted above, on initial deployment of the site to GitHub pages, I found the images were not loading and upon some research I found that I needed to remove the first forward slash in address location in order to pull in the image correctly for the deloyed site. This was resolved thanks to the GitHub community forum. 
 
 ***
 ## Credits  
