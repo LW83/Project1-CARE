@@ -291,9 +291,10 @@ Welcome to the homepage of CARE, a Dublin based community group passionate about
  - GitHub Deployment: When I first deployed the page to Gitpod, I found the images across the site were not loading. After some research on GitHub Community, I found that this was due to me having a / before the assets folder in the directory path which was preventing the files from loading. 
 
 ### Unfixed Bugs
-- Bold
-- Thumb
-- Hero-image
+- During the project there were a couple of ideas, I had which I found were not possible to implement for various reasons, so whilst not stricly unfixed bugs these included: Bold
+  - Bold: My preference was to bold the H2 headings on the three pages of the site to give them more impact however having tried using font-weight and strong, neither were applying a bold finish to the headings. After some research I found that certain fonts will not support a bold style. Given that I was happy with the font, I decided to keep the font and forgo bolding the headers as I don't believe it made a significant impact for the user of the site. 
+  - Form feedback: Initally I had wanted to include a font awesome 'thumbs up' icon to provide user feedback on sign up to the newsletter without taking the user away from the site page that they were on however I was not able to find a method of doing this via CSS and HTML and believe javascript may be required for this functionality. 
+  - Hero-image scaling for screen widths above 2000px: When the site is displayed on screens above 2000px, the land portion of the hero image is lost which detracts slightly from the visual impaact of the site. I may explore in future whether it is more appropriate to pull in an alternative image for viewing on larger screen sizes but given how the hero image drives the color palette for the site, it is not something I have implemented in the current design.
  
 ***
 ## Deployment
